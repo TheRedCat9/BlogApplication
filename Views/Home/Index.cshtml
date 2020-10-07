@@ -1,8 +1,95 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md mx-auto">
+                <div class="site-heading">
+                    <h1>Blog Application</h1>
+                    <span class="subheading">A practice blog site for learning .NET</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        Section 1.10.32 of "de Finibus Bonorum et Malorum"
+                    </h2>
+                    <h3 class="post-subtitle">
+                        written by Cicero in 45 BC
+                    </h3>
+                </a>
+                <p class="post-meta">
+                    Posted by
+                    <a href="#">Start Bootstrap</a>
+                    on March 24, 2019
+                </p>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </h2>
+                </a>
+                <p class="post-meta">
+                    Posted by
+                    <a href="#">Start Bootstrap</a>
+                    on June 18, 2019
+                </p>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Integer a nisi a risus auctor pellentesque.
+                    </h3>
+                </a>
+                <p class="post-meta">
+                    Posted by
+                    <a href="#">Start Bootstrap</a>
+                    on September 24, 2019
+                </p>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        de Finibus Bonorum et Malorum
+                    </h2>
+                    <h3 class="post-subtitle">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    </h3>
+                </a>
+                <p class="post-meta">
+                    Posted by
+                    <a href="#">Start Bootstrap</a>
+                    on December 25, 2019
+                </p>
+            </div>
+            <hr>
+            <!-- Pager -->
+            <div class="clearfix">
+                <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+            </div>
+        </div>
+    </div>
 </div>
+
+<hr>
+
